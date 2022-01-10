@@ -17,7 +17,7 @@ $ make
 
 ### Usage
 ```bash
-$ ./so_longs [MAP_FILE.ber]
+$ ./so_long [MAP_FILE.ber]
 ```
 Only map files with extension `.ber` are available. Map file examples are available in the `maps/` directory.
 
