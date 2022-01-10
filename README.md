@@ -1,29 +1,28 @@
 # so_long
 
-![jisokang's so_long Score](https://badge42.herokuapp.com/api/project/aymoulou/so_long)
 ![so long play screen shot](so_long_play_screen_shot.png)
-This is a small game project from 42school implemented using MiniLibX. The project is inspired by Game Freak's Pokemon Firered.
+This is a small game project from 1337/42school implemented using MiniLibX. The project is inspired by Game Freak's Pokemon Firered.
 
 ## Goals
 This project is a very small 2D game. It is built to make you work with textures, sprites. And some very basic gameplay elements.
 
 ## Getting Started
 ```
-🚨 Please check the issue/#1 before start.
+🚨 Please check that you have mlxlib installed in your machine.
 ```
 ### Install
 ```bash
-$ make bonus
+$ make
 ```
 
 ### Usage
 ```bash
-$ ./so_long_bonus [MAP_FILE.ber]
+$ ./so_longs [MAP_FILE.ber]
 ```
-Only map files with extension `.ber` are available. Map file examples are available in the `map/` directory.
+Only map files with extension `.ber` are available. Map file examples are available in the `maps/` directory.
 
 ```bash
-$ ./so_long_bonus map/map_sl.ber
+$ ./so_long maps/map.ber
 ```
 Run the code to use all the features of the game.
 
@@ -36,8 +35,6 @@ The player’s goal is to collect all collectibles present on the map then escap
 |`S`, `↓`|Move down|
 |`A`, `←`|Move left|
 |`D`, `→`|Move right|
-|`return ⏎`| Start game|
-|`R`|Retry game|
 |`ESC ⎋`|Close the game window|
 
 ## Reference
